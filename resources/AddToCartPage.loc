@@ -1,0 +1,2 @@
+addtocart.button.proceedtocart = {\"locator\":\"id=com.shopping.limeroad:id/checkout\",\"desc\":\"proceedtocart on productdetails\"}
+cancel.button.addtocart = {\"locator\":\"xpath=//android.widget.ImageView[@resource-id='com.shopping.limeroad:id/btn_remove']\",\"desc\":\"cancelbutton on producdetails\"}

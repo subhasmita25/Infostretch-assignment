@@ -1,0 +1,25 @@
+
+
+
+
+
+
+
+
+SCENARIO: LimeroadTestOrderFlowBDD
+META-DATA: {"description":"end to end","groups":["P1","P2","SMOKE"]}
+	
+	Given user launches the limeroad app
+	When user clicks on 'shop women' 
+	And user selects 'Sarees' and price level upto '₹700 - ₹1500'
+	And user selects the brand name of the product
+	Then user verifies the brandproduct details page on the product list page
+	When user selects the filter icon
+	And user selects the 'PRICE' and the price level upto '₹1000 TO ₹1499'
+	When user clicks on sort icon
+	And user selects 'Price: Low-High'
+	And user chooses the '0'th product
+	When user clicks on Add to Cart btn
+	Then user verifies the product on the add to cart page
+	
+END

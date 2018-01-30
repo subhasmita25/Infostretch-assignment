@@ -1,0 +1,103 @@
+<html>
+<head>
+<title>TestNG:  BDD Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>BDD Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>1/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Jan 12 12:55:34 IST 2018</td>
+</tr>
+<tr><td>Total time:</td><td>43 seconds (43241 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.qmetry.qaf.automation.step.client.Scenario.LimeroadTestOrderFlowBDD()'><b>LimeroadTestOrderFlowBDD</b><br>Test class: com.qmetry.qaf.automation.step.client.Scenario (LimeroadTestOrderFlowBDD)<br>Test method: end to end<br/>
+<a href="#Output-440736059" onClick='toggleBox("Output-440736059", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-440736059" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-440736059">
+Blue Brocade Border Saree<br/>
+1031<br/>
+<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given user launches the limeroad app</div><div  class="teststeppass"><span class="teststeppass-label">T </span>When user clicks on 'shop women'</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>welcome verification
+Expected: a string containing "shop women"
+     Actual: was "shop women" <a href="test-results/12_Jan_2018_12_55_PM/img/LimeroadTestOrderFlowBDD_1bjq99gr141yl54852.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>And user selects 'Sarees' and price level upto '₹700 - ₹1500'</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Choose product page validation
+Expected: a string containing "Sarees"
+     Actual: was "Sarees" <a href="test-results/12_Jan_2018_12_55_PM/img/LimeroadTestOrderFlowBDD_1mtwchtopaaz954853.png" target="_blank">[View Screenshot]</a> </div><div  class="pass"><span class="pass-label">P </span>Choose product page validation
+Expected: a string containing "₹700 - ₹1500"
+     Actual: was "₹700 - ₹1500" <a href="test-results/12_Jan_2018_12_55_PM/img/LimeroadTestOrderFlowBDD_mprvai4ktq3a54854.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>And user selects the brand name of the product</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then user verifies the brandproduct details page on the product list page</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Product list page verification
+Expected: &lt;true&gt;
+     Actual: was &lt;true&gt; <a href="test-results/12_Jan_2018_12_55_PM/img/LimeroadTestOrderFlowBDD_puptylbwrkoo54855.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>When user selects the filter icon</div><div  class="teststeppass"><span class="teststeppass-label">T </span>And user selects the 'PRICE' and the price level upto '₹1000 TO ₹1499'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>When user clicks on sort icon</div><div  class="teststeppass"><span class="teststeppass-label">T </span>And user selects 'Price: Low-High'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>And user chooses the '0'th product</div><div  class="teststeppass"><span class="teststeppass-label">T </span>When user clicks on Add to Cart btn</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then user verifies the product on the add to cart page</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>
+Expected: a string containing "Blue Brocade Border Saree"
+     Actual: was "Blue Brocade Border Saree" <a href="test-results/12_Jan_2018_12_55_PM/img/LimeroadTestOrderFlowBDD_1bxmczadwxn0x54856.png" target="_blank">[View Screenshot]</a> </div></div></div><br/>
+</div>
+</td>
+<td></td>
+<td>41</td>
+<td>com.qmetry.qaf.automation.step.client.Scenario@3e8</td></tr>
+</table><p>
+</body>
+</html>

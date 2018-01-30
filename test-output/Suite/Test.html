@@ -1,0 +1,103 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Jan 12 11:18:25 IST 2018</td>
+</tr>
+<tr><td>Total time:</td><td>27 seconds (27329 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.limeroadandroidautomation.scripts.LimeroadOrderSteps.LROrderFlow()'><b>LROrderFlow</b><br>Test class: com.limeroadandroidautomation.scripts.LimeroadOrderSteps<br/>
+<a href="#Output-1394940518" onClick='toggleBox("Output-1394940518", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1394940518" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1394940518">
+Set Of 2 Multicolor Bhagalpuri Saree<br/>
+1000<br/>
+<div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>welcome verification
+Expected: a string containing "shop women"
+     Actual: was "shop women" <a href="../img/LROrderFlow_yh4hbypwofl914417.png" target="_blank">[View Screenshot]</a> </div><div  class="pass"><span class="pass-label">P </span>Choose product page validation
+Expected: a string containing "Sarees"
+     Actual: was "Sarees" <a href="../img/LROrderFlow_1lo48vl2s6fic14418.png" target="_blank">[View Screenshot]</a> </div><div  class="pass"><span class="pass-label">P </span>Choose product page validation
+Expected: a string containing "₹700 - ₹1500"
+     Actual: was "₹700 - ₹1500" <a href="../img/LROrderFlow_1q6bw7f8f2k0w14419.png" target="_blank">[View Screenshot]</a> </div><div  class="pass"><span class="pass-label">P </span>Product list page verification
+Expected: &lt;true&gt;
+     Actual: was &lt;true&gt; <a href="../img/LROrderFlow_c47cczmu1b5j14420.png" target="_blank">[View Screenshot]</a> </div><div  class="fail"><span class="fail-label">F </span>
+Expected: a string containing "Set Of 2 Multicolor Bhagalpuri Saree"
+     Actual: was "Blue Satin Half And Saree" <a href="../img/LROrderFlow_ogspzscm17df14421.png" target="_blank">[View Screenshot]</a> </div></div><br/>
+</div>
+</td>
+<td></td>
+<td>27</td>
+<td>com.limeroadandroidautomation.scripts.LimeroadOrderSteps@4bff7da0</td></tr>
+</table><p>
+</body>
+</html>

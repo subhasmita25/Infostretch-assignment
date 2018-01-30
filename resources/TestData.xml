@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<product>
+<testData>
+<gender>shop women</gender>
+<prodName>Sarees</prodName>
+<priceLevel>₹700 - ₹1500</priceLevel>
+<filteron>PRICE</filteron>
+<priceRange>₹500 TO ₹999</priceRange>
+<sortBy>Price: Low-High</sortBy>
+<productNo>0</productNo>
+</testData>
+</product>

@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="2" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given user launches the limeroad app</div><div  class="teststeppass"><span class="teststeppass-label">T </span>When user clicks on 'shop women'</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>verifying the visibility of the category
+Expected: &lt;true&gt;
+     Actual: was &lt;true&gt; <a href="test-results/18_Jan_2018_05_19_PM/img/LimeRoadOrderVerificationDD_1cx09mh7hwl2d11668.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>And user selects 'Sarees' and price level upto '₹700 - ₹1500'</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Choose product page validation
+Expected: a string containing "Sarees"
+     Actual: was "Sarees" <a href="test-results/18_Jan_2018_05_19_PM/img/LimeRoadOrderVerificationDD_117m57mbpob1c11669.png" target="_blank">[View Screenshot]</a> </div><div  class="pass"><span class="pass-label">P </span>Choose product page validation
+Expected: a string containing "₹700 - ₹1500"
+     Actual: was "₹700 - ₹1500" <a href="test-results/18_Jan_2018_05_19_PM/img/LimeRoadOrderVerificationDD_1ub9s78pqf0hi11670.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>And user selects the brand name of the product</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then user verifies the brandproduct details page on the product list page</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Product list page verification
+Expected: &lt;true&gt;
+     Actual: was &lt;true&gt; <a href="test-results/18_Jan_2018_05_19_PM/img/LimeRoadOrderVerificationDD_9cneqwyj983m11671.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>When user selects the filter icon</div><div  class="teststeppass"><span class="teststeppass-label">T </span>And user selects the 'PRICE' and the price level upto '₹500 TO ₹999'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>When user clicks on sort icon</div><div  class="teststeppass"><span class="teststeppass-label">T </span>And user selects 'Price: Low-High'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>And user chooses the '0'th product</div><div style="display:block;margin-left:10px;"><div  class="info"><span class="info-label">I </span>Black Art Silk Saree</div><div  class="info"><span class="info-label">I </span>578</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>When user clicks on Add to Cart btn</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then user verifies the product on the add to cart page</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>
+Expected: a string containing "Black Art Silk Saree"
+     Actual: was "Black Art Silk Saree" <a href="test-results/18_Jan_2018_05_19_PM/img/LimeRoadOrderVerificationDD_1j0tmfk7bw7br11672.png" target="_blank">[View Screenshot]</a> </div></div></div>]]>
+    </line>
+  </reporter-output>
+  <suite name="LimeRoadAndroidAutomation.scenarios.Test.bdd" duration-ms="40081" started-at="2018-01-18T11:49:01Z" finished-at="2018-01-18T11:49:41Z">
+    <groups>
+      <group name="P1">
+        <method signature="scenarios.Test.bdd.LimeRoadOrderVerificationDD( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" name="LimeRoadOrderVerificationDD" class="com.qmetry.qaf.automation.step.client.DataDrivenScenario"/>
+      </group> <!-- P1 -->
+      <group name="P2">
+        <method signature="scenarios.Test.bdd.LimeRoadOrderVerificationDD( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" name="LimeRoadOrderVerificationDD" class="com.qmetry.qaf.automation.step.client.DataDrivenScenario"/>
+      </group> <!-- P2 -->
+      <group name="SMOKE">
+        <method signature="scenarios.Test.bdd.LimeRoadOrderVerificationDD( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" name="LimeRoadOrderVerificationDD" class="com.qmetry.qaf.automation.step.client.DataDrivenScenario"/>
+      </group> <!-- SMOKE -->
+    </groups>
+    <test name="BDD Test" duration-ms="40081" started-at="2018-01-18T11:49:01Z" finished-at="2018-01-18T11:49:41Z">
+      <class name="com.qmetry.qaf.automation.step.client.DataDrivenScenario">
+        <test-method status="PASS" signature="setupSuit(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" test-instance-name="LimeRoadOrderVerificationDD" name="setupSuit" is-config="true" duration-ms="16" started-at="2018-01-18T17:19:01Z" finished-at="2018-01-18T17:19:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@7e6f74c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupSuit -->
+        <test-method status="PASS" signature="setupTest(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" test-instance-name="LimeRoadOrderVerificationDD" name="setupTest" is-config="true" duration-ms="2" started-at="2018-01-18T17:19:01Z" finished-at="2018-01-18T17:19:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@7e6f74c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="setup(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" test-instance-name="LimeRoadOrderVerificationDD" name="setup" is-config="true" duration-ms="1" started-at="2018-01-18T17:19:01Z" finished-at="2018-01-18T17:19:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@7e6f74c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="setupMethod(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" test-instance-name="LimeRoadOrderVerificationDD" name="setupMethod" is-config="true" duration-ms="1" started-at="2018-01-18T17:19:01Z" finished-at="2018-01-18T17:19:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(java.util.Map)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@7e6f74c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method status="PASS" signature="LimeRoadOrderVerificationDD( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" test-instance-name="LimeRoadOrderVerificationDD" name="LimeRoadOrderVerificationDD" duration-ms="37905" started-at="2018-01-18T17:19:01Z" data-provider="scenariodp" finished-at="2018-01-18T17:19:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{gender=shop women, prodName=Sarees, priceLevel=₹700 - ₹1500, filteron=PRICE, priceRange=₹500 TO ₹999, sortBy=Price: Low-High, productNo=0}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given user launches the limeroad app</div><div  class="teststeppass"><span class="teststeppass-label">T </span>When user clicks on 'shop women'</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>verifying the visibility of the category
+Expected: &lt;true&gt;
+     Actual: was &lt;true&gt; <a href="test-results/18_Jan_2018_05_19_PM/img/LimeRoadOrderVerificationDD_1cx09mh7hwl2d11668.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>And user selects 'Sarees' and price level upto '₹700 - ₹1500'</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Choose product page validation
+Expected: a string containing "Sarees"
+     Actual: was "Sarees" <a href="test-results/18_Jan_2018_05_19_PM/img/LimeRoadOrderVerificationDD_117m57mbpob1c11669.png" target="_blank">[View Screenshot]</a> </div><div  class="pass"><span class="pass-label">P </span>Choose product page validation
+Expected: a string containing "₹700 - ₹1500"
+     Actual: was "₹700 - ₹1500" <a href="test-results/18_Jan_2018_05_19_PM/img/LimeRoadOrderVerificationDD_1ub9s78pqf0hi11670.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>And user selects the brand name of the product</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then user verifies the brandproduct details page on the product list page</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Product list page verification
+Expected: &lt;true&gt;
+     Actual: was &lt;true&gt; <a href="test-results/18_Jan_2018_05_19_PM/img/LimeRoadOrderVerificationDD_9cneqwyj983m11671.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>When user selects the filter icon</div><div  class="teststeppass"><span class="teststeppass-label">T </span>And user selects the 'PRICE' and the price level upto '₹500 TO ₹999'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>When user clicks on sort icon</div><div  class="teststeppass"><span class="teststeppass-label">T </span>And user selects 'Price: Low-High'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>And user chooses the '0'th product</div><div style="display:block;margin-left:10px;"><div  class="info"><span class="info-label">I </span>Black Art Silk Saree</div><div  class="info"><span class="info-label">I </span>578</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>When user clicks on Add to Cart btn</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then user verifies the product on the add to cart page</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>
+Expected: a string containing "Black Art Silk Saree"
+     Actual: was "Black Art Silk Saree" <a href="test-results/18_Jan_2018_05_19_PM/img/LimeRoadOrderVerificationDD_1j0tmfk7bw7br11672.png" target="_blank">[View Screenshot]</a> </div></div></div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- LimeRoadOrderVerificationDD -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext, org.testng.ITestResult)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" test-instance-name="LimeRoadOrderVerificationDD" name="afterMethod" is-config="true" duration-ms="1" started-at="2018-01-18T17:19:39Z" finished-at="2018-01-18T17:19:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@7e6f74c]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=LimeRoadOrderVerificationDD status=SUCCESS method=scenarios.Test.bdd.LimeRoadOrderVerificationDD( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8] output=<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given user launches the limeroad app</div><div  class="teststeppass"><span class="teststeppass-label">T </span>When user clicks on 'shop women'</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>verifying the visibility of the category
+Expected: &lt;true&gt;
+     Actual: was &lt;true&gt; <a href="test-results/18_Jan_2018_05_19_PM/img/LimeRoadOrderVerificationDD_1cx09mh7hwl2d11668.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>And user selects 'Sarees' and price level upto '₹700 - ₹1500'</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Choose product page validation
+Expected: a string containing "Sarees"
+     Actual: was "Sarees" <a href="test-results/18_Jan_2018_05_19_PM/img/LimeRoadOrderVerificationDD_117m57mbpob1c11669.png" target="_blank">[View Screenshot]</a> </div><div  class="pass"><span class="pass-label">P </span>Choose product page validation
+Expected: a string containing "₹700 - ₹1500"
+     Actual: was "₹700 - ₹1500" <a href="test-results/18_Jan_2018_05_19_PM/img/LimeRoadOrderVerificationDD_1ub9s78pqf0hi11670.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>And user selects the brand name of the product</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then user verifies the brandproduct details page on the product list page</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Product list page verification
+Expected: &lt;true&gt;
+     Actual: was &lt;true&gt; <a href="test-results/18_Jan_2018_05_19_PM/img/LimeRoadOrderVerificationDD_9cneqwyj983m11671.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>When user selects the filter icon</div><div  class="teststeppass"><span class="teststeppass-label">T </span>And user selects the 'PRICE' and the price level upto '₹500 TO ₹999'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>When user clicks on sort icon</div><div  class="teststeppass"><span class="teststeppass-label">T </span>And user selects 'Price: Low-High'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>And user chooses the '0'th product</div><div style="display:block;margin-left:10px;"><div  class="info"><span class="info-label">I </span>Black Art Silk Saree</div><div  class="info"><span class="info-label">I </span>578</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>When user clicks on Add to Cart btn</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then user verifies the product on the add to cart page</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>
+Expected: a string containing "Black Art Silk Saree"
+     Actual: was "Black Art Silk Saree" <a href="test-results/18_Jan_2018_05_19_PM/img/LimeRoadOrderVerificationDD_1j0tmfk7bw7br11672.png" target="_blank">[View Screenshot]</a> </div></div></div>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" test-instance-name="LimeRoadOrderVerificationDD" name="afterClass" is-config="true" duration-ms="0" started-at="2018-01-18T17:19:39Z" finished-at="2018-01-18T17:19:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@7e6f74c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterTest(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" test-instance-name="LimeRoadOrderVerificationDD" name="afterTest" is-config="true" duration-ms="2069" started-at="2018-01-18T17:19:39Z" finished-at="2018-01-18T17:19:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@7e6f74c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterSuit(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" test-instance-name="LimeRoadOrderVerificationDD" name="afterSuit" is-config="true" duration-ms="3" started-at="2018-01-18T17:19:41Z" finished-at="2018-01-18T17:19:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@7e6f74c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuit -->
+      </class> <!-- com.qmetry.qaf.automation.step.client.DataDrivenScenario -->
+    </test> <!-- BDD Test -->
+  </suite> <!-- LimeRoadAndroidAutomation.scenarios.Test.bdd -->
+</testng-results>

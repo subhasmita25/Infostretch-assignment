@@ -1,0 +1,2 @@
+choosecatagory.link.productname = {\"locator\":\"xpath=//android.widget.TextView[@text='%s']\",\"desc\":\"product namelocator\"}
+choosepricelevel.link.productpricelevel = {\"locator\":\"xpath=//android.widget.TextView[@text='%s']\",\"desc\":\"product price level locator\"}

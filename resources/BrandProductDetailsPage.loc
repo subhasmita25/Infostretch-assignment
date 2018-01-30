@@ -1,0 +1,7 @@
+brandproductdetailspage.lbl.menuitem = {\"locator\":\"xpath=//android.widget.TextView[@text='%s']\",\"desc\":\"menu locator\"}
+brandproductdetailspage.lbl.submenuitem = {\"locator\":\"xpath=//android.widget.TextView[@text='%s']\",\"desc\":\"subemnu locator\"}
+brandproductdeatilspage.chkbox.itemtype = {\"locator\":\"xpath=//android.widget.TextView[@text='%s']\",\"desc\":\"itemtype locator\"}
+brandproductdetailspage.btn.apply = {\"locator\":\"xpath=//android.widget.Button[@text='APPLY']\",\"desc\":\"apply btn locator\"}
+brandproductdetailspage.btn.filter = {\"locator\":\"xpath=//android.widget.Button[@text='FILTER']\",\"desc\":\"filter locator\"}
+brandproductdetailspage.btn.sort = {\"locator\":\"xpath=//android.widget.Button[@text='SORT']\",\"desc\":\"sort btn locator\"}
+brandproductdeatilspage.link.lowtohigh = {\"locator\":\"xpath=//android.widget.TextView[@text='Price: Low-High']\",\"desc\":\"low to high loactor\"}

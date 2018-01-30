@@ -1,0 +1,4 @@
+productdetailspage.lbl.productname = {\"locator\":\"id=com.shopping.limeroad:id/text_prod_name\",\"desc\":\"productname locator\"}
+productdetailspage.lbl.productprice = {\"locator\":\"id=com.shopping.limeroad:id/text_selling_price\",\"desc\":\"product price locator\"}
+productdeatilspage.btn.productsize = {\"locator\":\"xpath=//android.widget.TextView[@text='%s']\",\"desc\":\"product size locator\"}
+productdeatilspage.btn.addtocart = {\"locator\":\"id=com.shopping.limeroad:id/add_to_bag_tv\",\"desc\":\"add to cart locator\"}

@@ -1,0 +1,19 @@
+
+
+SCENARIO: LimeRoadOrderVerificationDD
+META-DATA: {"description":"","groups":["P1","P2","SMOKE"],"key":"testData"}
+	
+	Given user launches the limeroad app
+	When user clicks on '${gender}' 
+	And user selects '${prodName}' and price level upto '${priceLevel}'
+	And user selects the brand name of the product
+	Then user verifies the brandproduct details page on the product list page
+	When user selects the filter icon
+	And user selects the '${filteron}' and the price level upto '${priceRange}'
+	When user clicks on sort icon
+	And user selects '${sortBy}'
+	And user chooses the '${productNo}'th product
+	When user clicks on Add to Cart btn
+	Then user verifies the product on the add to cart page
+	
+END

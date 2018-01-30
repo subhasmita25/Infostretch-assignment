@@ -1,0 +1,1 @@
+welcomepage.link.shopwomenlink = {\"locator\":\"xpath=//android.widget.TextView[@text='%s']\",\"desc\":\"shop women locator\"}
